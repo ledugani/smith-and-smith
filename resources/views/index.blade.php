@@ -11,6 +11,7 @@
 
   @include('partials.hero')
   @include('partials.banner')
+  @include('partials.info')
 
   <!-- @if (!have_posts())
     <div class="alert alert-warning">
