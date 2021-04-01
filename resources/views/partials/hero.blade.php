@@ -1,7 +1,12 @@
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
+<div class="jumbotron jumbotron-fluid hero-section">
+  <div class="container-fluid">
     <div class="card bg-dark text-white">
-      <img class="card-img" src="<?= get_template_directory_uri(); ?>/assets/images/GettyImages-526245919.jpg" alt="Card image">
+      <img 
+        class="card-img hero-img" 
+        src="<?= get_template_directory_uri(); ?>/assets/images/GettyImages-526245919.jpg" 
+        alt="car damage"
+      >
+
       <div class="card-img-overlay">
         <h1 class="card-title">Lorem Ipsum</h1>
         <h1 class="card-title">Dolor Sit Amet</h1>
