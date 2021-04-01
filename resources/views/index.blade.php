@@ -1,9 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
-  @include('partials.page-header')
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Home</h1>
+      </div>
+    </div>
+  </div> -->
 
-  @if (!have_posts())
+  @include('partials.hero')
+  @include('partials.banner')
+
+  <!-- @if (!have_posts())
     <div class="alert alert-warning">
       {{ __('Sorry, no results were found.', 'sage') }}
     </div>
@@ -15,4 +24,5 @@
   @endwhile
 
   {!! get_the_posts_navigation() !!}
+  <div>HELP ME</div> -->
 @endsection

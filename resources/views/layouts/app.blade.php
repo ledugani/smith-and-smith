@@ -17,7 +17,7 @@
       @else
         <div class="content row">
           <main class="main col-md-12">
-            @yield('hero')
+            @yield('content')
           </main>
         </div>
       @endif
