@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid parallax">
     <div class="card bg-dark text-white">
       <img 
         class="card-img hero-img" 

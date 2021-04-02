@@ -37,7 +37,14 @@
     padding-left: 5rem !important;
 }
 
-// banner section
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// banner
 .banner-section {
     height: 100px;
     width: 100%;
@@ -47,8 +54,10 @@
     padding-top: 2.5%;
 }
 
-//  info section
+//  info
 
+
+// footer
 
 
 // Add/remove floats

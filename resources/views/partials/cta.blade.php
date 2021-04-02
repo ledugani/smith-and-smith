@@ -5,15 +5,13 @@
       <h1 class="card-title">Lorem Ipsum</h1>
       <h1 class="card-title">Dolor Sit Amet</h1>
       <p class="lead">
-        <small>
         <a 
-          class="btn btn-primary btn-lg" 
-          href="#" 
-          role="button"
+            class="btn btn-primary btn-lg text-uppercase" 
+            href="#" 
+            role="button"
         >
-          Contact Us
+            <small>Contact Us</small>
         </a>
-        </small>
       </p>
     </div>
   </div>
