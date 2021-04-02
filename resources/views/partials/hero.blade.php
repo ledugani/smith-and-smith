@@ -1,5 +1,4 @@
-<div class="jumbotron jumbotron-fluid hero-section">
-  <div class="container-fluid">
+<div class="container-fluid">
     <div class="card bg-dark text-white">
       <img 
         class="card-img hero-img" 
@@ -22,4 +21,3 @@
       </div>
     </div>
   </div>
-</div>

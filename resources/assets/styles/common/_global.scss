@@ -1,10 +1,12 @@
 // general
-body {
-    background-color: lime;
-}
 
 .container {
-    margin: 0px !important;
+    max-width: none !important;
+}
+
+.card, .card-img {
+    border-radius: 0 !important;
+    border: 0 !important;
 }
 
 // navbar
@@ -24,12 +26,28 @@ body {
 // hero
 .hero-section {
     background-color: turquoise;
-    width: 100%;
 }
 
 .hero-img {
-    max-height: 500px;
+    height: 500px;
 }
+
+.card-img-overlay {
+    padding-top: 10rem !important;
+    padding-left: 5rem !important;
+}
+
+// banner section
+.banner-section {
+    height: 100px;
+    width: 100%;
+}
+
+.vertical-center {
+    padding-top: 2.5%;
+}
+
+//  info section
 
 
 
