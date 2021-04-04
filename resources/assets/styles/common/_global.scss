@@ -1,4 +1,57 @@
+// // general
 
+// .container {
+//     width: 100vw !important;
+// }
+
+// .card, .card-img {
+//     border-radius: 0 !important;
+//     border: 0 !important;
+// }
+
+// // navbar
+// // .navbar-brand img {
+// //     height: 34px;
+// //     padding-left: 50px;
+// // }
+
+// // .navbar {
+// //     height: 100px;
+// // }
+
+// // .navbar-nav {
+// //     padding-right: 50px;
+// // }
+
+// // hero
+
+.card-img  {
+    width: 100vw;
+}
+
+// // banner
+// .banner-section {
+//     height: 100px;
+//     width: 100vw;
+// }
+
+// .vertical-center {
+//     padding-top: 2.5%;
+// }
+
+// //  info
+// .info {
+//     width: 100vw;
+// }
+
+.info-img {
+    width: 50vw;
+}
+
+// // footer
+// #footer-nav {
+//     height: 50vh
+// }
 
 // Add/remove floats
 .float-right {

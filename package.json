@@ -71,13 +71,13 @@
     "webpack": "~3.10.0",
     "webpack-assets-manifest": "^1.0.0",
     "webpack-dev-middleware": "~2.0.4",
-    "webpack-hot-middleware": "^2.22.3",
     "webpack-merge": "~4.1.4",
     "yargs": "^16.1.0"
   },
   "dependencies": {
     "bootstrap": "v4.3.1",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.7"
+    "popper.js": "^1.14.7",
+    "webpack-hot-middleware": "^2.25.0"
   }
 }
