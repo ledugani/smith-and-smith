@@ -4,7 +4,7 @@
   <body @php body_class() @endphp>
     @php do_action('get_header') @endphp
     @include('partials.header')
-    <div class="wrap container-fluid" role="document">
+    <div class="wrap container-fluid p-0" role="document">
       @if (App\display_sidebar())
         <div class="content row">
           <main class="main col-md-8">

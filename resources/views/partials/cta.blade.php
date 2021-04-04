@@ -1,6 +1,9 @@
-<div class="container">
+<div class="container p-0 m-0">
   <div class="card bg-dark text-white">
-    <img class="card-img" src="<?= get_template_directory_uri(); ?>/assets/images/GettyImages-1034313494.jpg" alt="Card image">
+    <img 
+      class="card-img" 
+      src="<?= get_template_directory_uri(); ?>/assets/images/fallen-powerline.png" 
+      alt="fallen powerline personal injury">
     <div class="card-img-overlay">
       <h1 class="card-title">Lorem Ipsum</h1>
       <h1 class="card-title">Dolor Sit Amet</h1>

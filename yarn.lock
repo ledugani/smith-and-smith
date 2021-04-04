@@ -10434,7 +10434,7 @@
     "url-join" "^2.0.2"
     "webpack-log" "^1.0.1"
 
-"webpack-hot-middleware@^2.17.1":
+"webpack-hot-middleware@^2.17.1", "webpack-hot-middleware@^2.25.0":
   "integrity" "sha512-xs5dPOrGPCzuRXNi8F6rwhawWvQQkeli5Ro48PRuQh8pYPCPmNnltP9itiUPT4xI8oW+y0m59lyyeQk54s5VgA=="
   "resolved" "https://registry.npmjs.org/webpack-hot-middleware/-/webpack-hot-middleware-2.25.0.tgz"
   "version" "2.25.0"

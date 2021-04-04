@@ -1,64 +1,57 @@
-// general
+// // general
 
-.container {
-    max-width: none !important;
+// .container {
+//     width: 100vw !important;
+// }
+
+// .card, .card-img {
+//     border-radius: 0 !important;
+//     border: 0 !important;
+// }
+
+// // navbar
+// // .navbar-brand img {
+// //     height: 34px;
+// //     padding-left: 50px;
+// // }
+
+// // .navbar {
+// //     height: 100px;
+// // }
+
+// // .navbar-nav {
+// //     padding-right: 50px;
+// // }
+
+// // hero
+
+.card-img  {
+    width: 100vw;
 }
 
-.card, .card-img {
-    border-radius: 0 !important;
-    border: 0 !important;
+// // banner
+// .banner-section {
+//     height: 100px;
+//     width: 100vw;
+// }
+
+// .vertical-center {
+//     padding-top: 2.5%;
+// }
+
+// //  info
+// .info {
+//     width: 100vw;
+// }
+
+.info-img {
+    width: 50vw;
 }
 
-// navbar
-.navbar-brand img {
-    height: 34px;
-    padding-left: 50px;
-}
-
-.navbar {
-    height: 100px;
-}
-
-.navbar-nav {
-    padding-right: 50px;
-}
-
-// hero
-.hero-section {
-    background-color: turquoise;
-}
-
-.hero-img {
-    height: 500px;
-}
-
-.card-img-overlay {
-    padding-top: 10rem !important;
-    padding-left: 5rem !important;
-}
-
-.parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-// banner
-.banner-section {
-    height: 100px;
-    width: 100%;
-}
-
-.vertical-center {
-    padding-top: 2.5%;
-}
-
-//  info
-
-
-// footer
-
+// // footer
+// #footer-nav {
+//     height: 50vh
+// }
 
 // Add/remove floats
 .float-right {

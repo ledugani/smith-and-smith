@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark container">
+<footer class="navbar navbar-expand-md navbar-dark bg-dark p-5" id="footer-nav">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-12 text-center pt-3">
       <img 
         src="<?= get_template_directory_uri(); ?>/assets/images/s&s_logo_white.png" 
-        height="30" 
+        height="34" 
         alt=""
       >
       <button 
@@ -21,14 +21,38 @@
       </button>
     </div>
 
-    <div class="col-sm-12">
-      @if (has_nav_menu('primary_navigation'))
+    <div class="col-sm-12 pb-3">
+      <!-- @if (has_nav_menu('primary_navigation'))
         {!! wp_nav_menu($primarymenu) !!}
-      @endif
+      @endif -->
+      <ul class="navbar-nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Practice Areas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Results</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
     
-    <div class="col-sm-12">
-      <span style="color: white">Copyright &copy;2021 Whitehardt, Inc.</span>
+    <div class="col-sm-12 text-center">
+      <span style="color: white">
+        <small>
+          Copyright &copy;2021 Whitehardt, Inc.
+        </small>
+      </span>
     </div>
   </div>
-</nav>
+</footer>
