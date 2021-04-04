@@ -20,16 +20,17 @@
                 <small itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a sollicitudin nibh, et pellentesque lorem. Nam sollicitudin, elit non porta fringilla, magna mi eleifend lacus, in sagittis mauris nunc ut nisi. Donec facilis mollis tortor non felis suscipit dignissim. Morbi convallis leo est, vel interdum dolor placerat porttitor. Sed suscipit quis lorem quis elementum. Ut nulla ex, egestas ut tincidunt nec, cursus in mauris.
                 </small>
             </p>
-            <p class="lead">
-                <a 
-                    class="btn btn-primary btn-lg text-uppercase" 
+            <div class="text-center">
+                <button 
+                    class="btn btn-primary btn-lg text-uppercase info-btn" 
                     href="#" 
                     role="button"
                 >
                     <small>Contact Us</small>
-                </a>
-            </p>
+                </button>
+            </div>
         </div>
+        
         <div class="col text-center">
             <img 
                 src="<?= get_template_directory_uri(); ?>/assets/images/caution-wet-floor.png"

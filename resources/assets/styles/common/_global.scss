@@ -1,38 +1,54 @@
-// // general
+// general
 
-// .container {
-//     width: 100vw !important;
-// }
+.container {
+    width: 100vw !important;
+}
 
-// .card, .card-img {
-//     border-radius: 0 !important;
-//     border: 0 !important;
-// }
+.card, .card-img {
+    border-radius: 0 !important;
+    border: 0 !important;
+}
 
-// // navbar
-// // .navbar-brand img {
-// //     height: 34px;
-// //     padding-left: 50px;
-// // }
+.btn, .btn-lg {
+    border-radius: 0 !important;
+}
 
-// // .navbar {
-// //     height: 100px;
-// // }
+.main {
+    width: 100vw;
+}
 
-// // .navbar-nav {
-// //     padding-right: 50px;
-// // }
+// header navbar
+@media screen and (min-width: 1000px) {
+    .header-nav-img img {
+        height: 34px;
+        padding-left: 50px;
+    }
+    
+    .header-nav {
+        height: 15vh;
+    }
+    
+    .header-nav-items {
+        padding-right: 50px;
+    }
+}
 
-// // hero
+// hero
 
 .card-img  {
+    object-fit: cover;
     width: 100vw;
+    filter: brightness(50%);
 }
 
 // banner
 .banner-section {
     height: 100px;
     width: 100vw;
+}
+
+.row {
+    margin: 0;
 }
 
 .vertical-center {
@@ -48,36 +64,17 @@
     width: 50vw;
 }
 
-// // footer
+// media
 @media only screen and (max-width: 600px) {
+    .info-btn {
+        margin-bottom: 5vh;
+    }
+
+    .footer-menu {
+        padding-left: 15vw;
+    }
+
     #footer-nav {
         height: 50vh
-    }    
-}
-// Add/remove floats
-.float-right {
-    float: right;
-}
-.float-left {
-    float: left;
-}
-.float-none {
-    float: none;
-}
-.clear {
-    clear: both;
-}
-// Text alignment
-.text-left {
-    text-align: left;
-}
-.text-center {
-    text-align: center;
-}
-.text-right {
-    text-align: right;
-}
-// Apply capital case to an element
-.caps {
-    text-transform: uppercase;
+    }
 }
