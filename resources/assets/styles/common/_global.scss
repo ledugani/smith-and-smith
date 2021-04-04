@@ -1,82 +1,122 @@
-// // general
+// general
+.container {
+    width: 100vw !important;
+}
 
-// .container {
-//     width: 100vw !important;
-// }
+.card, .card-img {
+    border-radius: 0 !important;
+    border: 0 !important;
+}
 
-// .card, .card-img {
-//     border-radius: 0 !important;
-//     border: 0 !important;
-// }
+.btn, .btn-lg {
+    border-radius: 0 !important;
+    padding: 10px 50px;
+}
 
-// // navbar
-// // .navbar-brand img {
-// //     height: 34px;
-// //     padding-left: 50px;
-// // }
 
-// // .navbar {
-// //     height: 100px;
-// // }
 
-// // .navbar-nav {
-// //     padding-right: 50px;
-// // }
+// header navbar
+@media screen and (min-width: 1000px) {
+    .header-nav-img img {
+        height: 34px;
+        padding-left: 50px;
+    }
+    
+    .header-nav {
+        height: 15vh;
+    }
+    
+    .header-nav-items {
+        padding-right: 50px;
+    }
 
-// // hero
+    .info-description {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
 
+// hero
 .card-img  {
-    width: 100vw;
+    filter: brightness(50%);
 }
 
-// // banner
-// .banner-section {
-//     height: 100px;
-//     width: 100vw;
-// }
+// banner
+.banner-section {
+    height: 100px;
+}
 
-// .vertical-center {
-//     padding-top: 2.5%;
-// }
+.vertical-center {
+    padding-top: 2.5%;
+}
 
-// //  info
-// .info {
-//     width: 100vw;
-// }
-
+//  info
 .info-img {
-    width: 50vw;
+    width: 100%;
 }
 
-// // footer
-// #footer-nav {
-//     height: 50vh
-// }
+#info-section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 
-// Add/remove floats
-.float-right {
-    float: right;
+#info-title {
+    width: 80%; 
+    text-align: center; 
+    border-bottom: 2px solid #0072BA; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+ } 
+ 
+ #info-title span { 
+    background:#fff; 
+    padding:0 10px;
+ }
+
+ #info-title-container {
+    margin: 0 15vw !important;
+    padding-bottom: 7vh !important;
+ }
+
+// cta
+#cta-img {
+    width: 100%;
 }
-.float-left {
-    float: left;
+
+.card-img-overlay {
+    padding-left: 10vw;
+    padding-top: 10vw;
 }
-.float-none {
-    float: none;
+
+// footer
+#footer-nav #footer-container {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
-.clear {
-    clear: both;
-}
-// Text alignment
-.text-left {
-    text-align: left;
-}
-.text-center {
-    text-align: center;
-}
-.text-right {
-    text-align: right;
-}
-// Apply capital case to an element
-.caps {
-    text-transform: uppercase;
+
+// media
+@media only screen and (max-width: 600px) {
+    .vertical-center h2 {
+        padding-top: 3vh;
+        font-size: 20px;
+    }
+    
+    .info-btn {
+        margin-bottom: 5vh;
+    }
+
+    .footer-menu {
+        padding-left: 15vw;
+    }
+
+    #footer-nav {
+        height: 50vh
+    }
+
+    #footer-li {
+        -ms-flex-align: center!important;
+        align-items: center!important;
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -1,5 +1,5 @@
 > *I should probably just leave this be...*
-- [T. Dugan](http://ledugani.com/)
+"- [T. Dugan](http://ledugani.com/)
 
 # [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
