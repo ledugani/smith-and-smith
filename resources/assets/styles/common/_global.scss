@@ -1,5 +1,4 @@
 // general
-
 .container {
     width: 100vw !important;
 }
@@ -11,11 +10,10 @@
 
 .btn, .btn-lg {
     border-radius: 0 !important;
+    padding: 10px 50px;
 }
 
-.main {
-    width: 100vw;
-}
+
 
 // header navbar
 @media screen and (min-width: 1000px) {
@@ -31,24 +29,21 @@
     .header-nav-items {
         padding-right: 50px;
     }
+
+    .info-description {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 }
 
 // hero
-
 .card-img  {
-    object-fit: cover;
-    width: 100vw;
     filter: brightness(50%);
 }
 
 // banner
 .banner-section {
     height: 100px;
-    width: 100vw;
-}
-
-.row {
-    margin: 0;
 }
 
 .vertical-center {
@@ -56,16 +51,56 @@
 }
 
 //  info
-.info {
-    width: 100vw;
+.info-img {
+    width: 100%;
 }
 
-.info-img {
-    width: 50vw;
+#info-section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#info-title {
+    width: 80%; 
+    text-align: center; 
+    border-bottom: 2px solid #0072BA; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+ } 
+ 
+ #info-title span { 
+    background:#fff; 
+    padding:0 10px;
+ }
+
+ #info-title-container {
+    margin: 0 15vw !important;
+    padding-bottom: 7vh !important;
+ }
+
+// cta
+#cta-img {
+    width: 100%;
+}
+
+.card-img-overlay {
+    padding-left: 10vw;
+    padding-top: 10vw;
+}
+
+// footer
+#footer-nav #footer-container {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 // media
 @media only screen and (max-width: 600px) {
+    .vertical-center h2 {
+        padding-top: 3vh;
+        font-size: 20px;
+    }
+    
     .info-btn {
         margin-bottom: 5vh;
     }
@@ -76,5 +111,12 @@
 
     #footer-nav {
         height: 50vh
+    }
+
+    #footer-li {
+        -ms-flex-align: center!important;
+        align-items: center!important;
+        display: flex;
+        justify-content: center;
     }
 }
