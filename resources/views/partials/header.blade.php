@@ -7,6 +7,7 @@
     >
   </a>
   <button
+    id="nav-btn"
     class="navbar-toggler"
     type="button"
     data-toggle="collapse"
@@ -15,7 +16,9 @@
     aria-expanded="false"
     aria-label="Toggle navigation"
   >
-    <span class="navbar-toggler-icon"></span>
+    <p class="navbar-toggler-icon small-text">
+      menu
+    </p>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="header-nav-items navbar-nav ml-auto">
